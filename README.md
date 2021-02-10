@@ -1,4 +1,4 @@
-# opencloud-account-middleware
+# opencloud authentication middleware
 A SMTP and IMAP server middleware that implements the oauth2 and multi-factor authentication specifications.
 
 ## Technical Specifications
