@@ -1,0 +1,13 @@
+{
+  "PROTOCOL_NAME": "",
+  "PROTOCOL_UUID": "",
+  "DEFAULT_ADDRESS": "",
+  "FALLBACK_ADDRESS": [],
+  "PORT": "",
+  "FALLBACK_PORT": [],
+  "MAP_PORT": "",
+  "AUTH_SCRIPT": "",
+  "ENABLE_2FA": true,
+  "TOKEN_TIMEOUT": "",
+  "IP_RESTRICTION": []
+}
