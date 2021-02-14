@@ -1,0 +1,13 @@
+include templates/header.pug
+
+h1 Sign In
+p Using your #{org_name} Account
+
+form(action="/api/login/" + service_id, method="post")
+  input(type="text", name="username")
+  input(type="password" name="password")
+  input(type="submit", value="submission")
+
+a(href="/html/reset-password.html") Reset Password?
+
+include templates/footer.pug

@@ -1,0 +1,13 @@
+include templates/header.pug 
+
+h1 Sign In 
+p Using your #{org_name} Account
+
+p Please enter the 2FA authentication code for 
+  b #{emailAddress}
+
+form(action="/api/login/" + service_id + "/2fa", method="post")
+  input(type="password" name="2fa_auth_code") 
+  input(type="submit", value="submission")
+
+include templates/footer.pug
